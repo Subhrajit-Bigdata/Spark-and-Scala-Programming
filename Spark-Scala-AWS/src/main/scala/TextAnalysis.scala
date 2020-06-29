@@ -72,7 +72,9 @@ object TextAnalysis {
     ta.ReadFile()
  
     val ta1 = new TextAnalysis(argsArray(0), argsArray(1))
-    ta1.ReadFile()
+    val df1 = ta1.ReadFile()
+    ta1.writeFile(df1)
+   
     val ta2 = new TextAnalysis()
     ta2.ReadFile()
     
