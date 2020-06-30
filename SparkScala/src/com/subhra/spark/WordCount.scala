@@ -7,7 +7,6 @@ import org.apache.log4j._
 /** Count up how many of each word appears in a book as simply as possible. */
 object WordCount {
  
-  /** Our main function where the action happens */
   def main(args: Array[String]) {
    
     // Set the log level to only print errors
