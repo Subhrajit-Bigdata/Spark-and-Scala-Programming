@@ -25,7 +25,6 @@ object Storage_Bigquery {
 
     val exampleData = "gs://my-bigdata-bucket/babiescount.csv"
     val input = args.getOrElse("input", exampleData)
-    //val output = args("output")
 
     sc.textFile(input)
       .map(x=> x.split(","))
