@@ -47,7 +47,7 @@
     def transform(elem: A ): B
   }
 
-object GenericExerCise extends App{
+object GenericExercise extends App{
   val listofIntegers:MyList[Int] = new Cons(1, new Cons(2, new Cons(3, Empty)))
   val ListofStrings:MyList[String] = new Cons("Subhrajit", new Cons("Behera", Empty))
 
